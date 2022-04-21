@@ -4,8 +4,10 @@
     <label for="title">Title</label>
     <input type="text" v-model="bookTitle" /><br />
     <label for="thought">Thooughts</label>
-    <textarea cols="60" rows="10" v-model="bookThoughts"></textarea>
-    <button v-on:click="addBookInfo">create</button><br />
+    <textarea cols="60" rows="10" v-model="bookThoughts"></textarea><br />
+    <button type="button" class="btn btn-success" v-on:click="addBookInfo">
+      create</button
+    ><br />
     {{ $data }}
   </div>
 </template>
