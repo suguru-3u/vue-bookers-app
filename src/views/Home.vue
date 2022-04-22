@@ -1,7 +1,13 @@
 <template>
-  <div class="home">
-    <InputBookInfo @addBookInfo="addBookInfo" />
-    <IndexBooks v-bind:bookInfoArray="bookInfoArray" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <InputBookInfo @addBookInfo="addBookInfo" />
+      </div>
+      <div class="col-md-8">
+        <IndexBooks v-bind:bookInfoArray="bookInfoArray" />
+      </div>
+    </div>
   </div>
 </template>
 

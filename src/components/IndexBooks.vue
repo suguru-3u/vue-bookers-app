@@ -1,5 +1,5 @@
 <template>
-  <h1>Books</h1>
+  <h2>Books</h2>
   <table class="table">
     <thead>
       <tr>
